@@ -1,0 +1,30 @@
+.login-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url('/images/login-wallpaper.jpeg');
+  background-size: cover;  /* não repita a imagem, use o resize */
+  background-position: center;
+  opacity: 0.8;  /* defina a opacidade para 70% */
+  filter: hue-rotate(30deg) saturate(0.7);  /* defina a tonalidade para verde */
+}
+
+.login-fields {
+  background-color: #fff;
+  opacity: 0.95;  /* defina a opacidade para 50% */
+  border-radius: 10px;  /* arredonde as bordas com raio de 10px */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 40%;
+  height: 35%;
+
+  border: 1px solid var(--primary-color);
+}
