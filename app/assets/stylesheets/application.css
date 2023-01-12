@@ -15,5 +15,11 @@
  */
 
 :root {
-  --primary-color: #41693d;
+  --primary-color: #C4D6B0;
+  --secondary-color: #477998;
+  --background-color: #291F1E;
+  --background-secondary-color: #4D3E3E;
+  --background-third-color: #8F7D7D;
+  --alert-color: #F64740;
+  --danger-color: #A3333D;
 }
