@@ -1,4 +1,4 @@
-class NeighbourhoodsController < ApplicationController
+class NeighbourhoodsController < DashboardController
   before_action :authenticate_user!
   before_action :set_neighbourhood, only: %i[ show edit update destroy ]
 

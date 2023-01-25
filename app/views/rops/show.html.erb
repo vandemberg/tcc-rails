@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @rop %>
+
+<div>
+  <%= link_to "Edit this rop", edit_rop_path(@rop) %> |
+  <%= link_to "Back to rops", rops_path %>
+
+  <%= button_to "Destroy this rop", @rop, method: :delete %>
+</div>

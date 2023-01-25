@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Rops</h1>
+
+<div id="rops">
+  <% @rops.each do |rop| %>
+    <%= render rop %>
+    <p>
+      <%= link_to "Show this rop", rop %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New rop", new_rop_path %>

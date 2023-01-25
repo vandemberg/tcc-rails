@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Social groups</h1>
+
+<div id="social_groups">
+  <% @social_groups.each do |social_group| %>
+    <%= render social_group %>
+    <p>
+      <%= link_to "Show this social group", social_group %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New social group", new_social_group_path %>
